@@ -11,17 +11,34 @@ struct ContentView: View {
     @State var count: Int = 0
     var body: some View {
 
-        VStack {
-            Text("current count: \(count) ")
-            Button("increment") {
-                self.count += 1
+        HStack {
+            VStack {
+                
+                Text("Total number of repetitions of the Amitābha mantra: \(count) ")
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.white)
+                    .font(.system(size: 20))
+                    .padding(16)
+                    .background(.red)
+
+                Button("Add one repetition") {
+                    self.count += 1
                 }
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .font(.system(size: 20))
+                .padding(16)
+                .background(.red)
+
+
             }
         }
     }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
