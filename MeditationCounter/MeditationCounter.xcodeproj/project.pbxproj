@@ -14,6 +14,9 @@
 		B0BBFB382A5EEB7E00DE13FA /* MeditationCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BBFB372A5EEB7E00DE13FA /* MeditationCounterTests.swift */; };
 		B0BBFB422A5EEB7E00DE13FA /* MeditationCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BBFB412A5EEB7E00DE13FA /* MeditationCounterUITests.swift */; };
 		B0BBFB442A5EEB7E00DE13FA /* MeditationCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BBFB432A5EEB7E00DE13FA /* MeditationCounterUITestsLaunchTests.swift */; };
+		B0E36D852AD198D300CBDC55 /* Amitaba.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36D842AD198D300CBDC55 /* Amitaba.swift */; };
+		B0E36D872AD1A49C00CBDC55 /* MeditationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36D862AD1A49C00CBDC55 /* MeditationsList.swift */; };
+		B0E36D892AD1A98D00CBDC55 /* ShortRefuge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36D882AD1A98D00CBDC55 /* ShortRefuge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B0BBFB3D2A5EEB7E00DE13FA /* MeditationCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BBFB412A5EEB7E00DE13FA /* MeditationCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCounterUITests.swift; sourceTree = "<group>"; };
 		B0BBFB432A5EEB7E00DE13FA /* MeditationCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0E36D842AD198D300CBDC55 /* Amitaba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amitaba.swift; sourceTree = "<group>"; };
+		B0E36D862AD1A49C00CBDC55 /* MeditationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsList.swift; sourceTree = "<group>"; };
+		B0E36D882AD1A98D00CBDC55 /* ShortRefuge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortRefuge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				B0BBFB282A5EEB7C00DE13FA /* ContentView.swift */,
 				B0BBFB2A2A5EEB7D00DE13FA /* Assets.xcassets */,
 				B0BBFB2C2A5EEB7D00DE13FA /* Preview Content */,
+				B0E36D842AD198D300CBDC55 /* Amitaba.swift */,
+				B0E36D862AD1A49C00CBDC55 /* MeditationsList.swift */,
+				B0E36D882AD1A98D00CBDC55 /* ShortRefuge.swift */,
 			);
 			path = MeditationCounter;
 			sourceTree = "<group>";
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BBFB292A5EEB7C00DE13FA /* ContentView.swift in Sources */,
+				B0E36D872AD1A49C00CBDC55 /* MeditationsList.swift in Sources */,
 				B0BBFB272A5EEB7C00DE13FA /* MeditationCounterApp.swift in Sources */,
+				B0E36D852AD198D300CBDC55 /* Amitaba.swift in Sources */,
+				B0E36D892AD1A98D00CBDC55 /* ShortRefuge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

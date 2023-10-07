@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "eye-logo-diamond-way-buddhism-karma-kagyu-meditation-diamond-way-buddhist-center-buddhist-meditation-karmapa-mahamudra-png-clipart-thumbnail.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
