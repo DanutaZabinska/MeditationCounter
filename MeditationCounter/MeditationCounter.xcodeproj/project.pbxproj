@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0AB554E2B1B86CA00B6CF35 /* PageObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB554D2B1B86CA00B6CF35 /* PageObjects.swift */; };
 		B0BBFB272A5EEB7C00DE13FA /* MeditationCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BBFB262A5EEB7C00DE13FA /* MeditationCounterApp.swift */; };
 		B0BBFB292A5EEB7C00DE13FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BBFB282A5EEB7C00DE13FA /* ContentView.swift */; };
 		B0BBFB2B2A5EEB7D00DE13FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BBFB2A2A5EEB7D00DE13FA /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0AB554D2B1B86CA00B6CF35 /* PageObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageObjects.swift; sourceTree = "<group>"; };
 		B0BBFB232A5EEB7C00DE13FA /* MeditationCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditationCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BBFB262A5EEB7C00DE13FA /* MeditationCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCounterApp.swift; sourceTree = "<group>"; };
 		B0BBFB282A5EEB7C00DE13FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				B0BBFB412A5EEB7E00DE13FA /* MeditationCounterUITests.swift */,
 				B0BBFB432A5EEB7E00DE13FA /* MeditationCounterUITestsLaunchTests.swift */,
+				B0AB554D2B1B86CA00B6CF35 /* PageObjects.swift */,
 			);
 			path = MeditationCounterUITests;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AB554E2B1B86CA00B6CF35 /* PageObjects.swift in Sources */,
 				B0BBFB422A5EEB7E00DE13FA /* MeditationCounterUITests.swift in Sources */,
 				B0BBFB442A5EEB7E00DE13FA /* MeditationCounterUITestsLaunchTests.swift in Sources */,
 			);

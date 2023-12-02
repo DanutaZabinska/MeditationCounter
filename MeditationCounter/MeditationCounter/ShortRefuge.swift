@@ -20,6 +20,7 @@ struct ShortRefuge: View {
                     
                 Text("Total number of repetitions of the Short Refuge mantra: \(count) ")
 
+                    .accessibilityIdentifier("Counted Short Refuge Text")
                     .multilineTextAlignment(.center)
                     .font(.system(size: 20))
                     .padding(.bottom)
@@ -29,10 +30,12 @@ struct ShortRefuge: View {
                     .multilineTextAlignment(.center)
                     .font(.system(size: 20))
                     .padding(16)
+                    .accessibilityIdentifier("Total Of Shor tRefuge")
 
                 Button("Add 27 repetition") {
                     self.count += 27
                 }
+                .accessibilityIdentifier("Add 27")
                 .frame(maxWidth: 170, maxHeight: 20)
                 .font(.system(size: 17))
                 .padding(16)
@@ -44,6 +47,7 @@ struct ShortRefuge: View {
                 Button("Add 108 repetition") {
                     self.count += 108
                 }
+                .accessibilityIdentifier("Add 108")
                 .frame(maxWidth: 170, maxHeight: 20)
                 .font(.system(size: 17))
                 .padding(16)

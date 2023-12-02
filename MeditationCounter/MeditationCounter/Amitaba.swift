@@ -23,12 +23,14 @@ struct Amitaba: View {
                     .multilineTextAlignment(.center)
                     .font(.system(size: 20))
                     .padding(.bottom)
+                    .accessibilityIdentifier("Counted Amithaba Text")
 
                 Text("of 500 000")
 
                     .multilineTextAlignment(.center)
                     .font(.system(size: 20))
                     .padding(16)
+                    .accessibilityIdentifier("Total Of Amithaba")
 
                 Button("Add 27 repetition") {
                     self.count += 27

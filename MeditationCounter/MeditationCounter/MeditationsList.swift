@@ -16,11 +16,13 @@ struct MeditationsList: View {
 
                 NavigationLink(destination: Amitaba()) {
                     Text("Amithaba")
+                        .accessibilityIdentifier("Amithaba")
                         .padding(16)
                         .font(.system(size: 20))
 
                     NavigationLink(destination: ShortRefuge()) {
                         Text("Short refuge")
+                            .accessibilityIdentifier("Short refuge")
                             .padding(16)
                             .font(.system(size: 20))
 
