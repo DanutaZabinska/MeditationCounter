@@ -24,7 +24,7 @@ struct ShortRefuge: View {
                     .font(.system(size: 20))
                     .padding(.bottom)
 
-                Text("of 500 000")
+                Text("of 11 000")
 
                     .multilineTextAlignment(.center)
                     .font(.system(size: 20))
