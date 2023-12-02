@@ -22,12 +22,24 @@ final class MeditationCounterUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testEndtoEndShortRefuge() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
         
         let pageObjects = PageObjects(app: app)
+        pageObjects.logoImage.tap()
+        pageObjects.shortRefugeButton.tap()
+
+        XCTAssert(app.staticTexts["Short Refuge"].exists) //Check if we are on the Short Refuge page
+        pageObjects.add27.tap()
+
+        XCTAssert(pageObjects.countedShortRefuge.exists)
+        XCTAssert((pageObjects.countedShortRefuge.label).contains("27"))
+
+        pageObjects.add108.tap()
+        XCTAssert((pageObjects.countedShortRefuge.label).contains("135"))
+
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 

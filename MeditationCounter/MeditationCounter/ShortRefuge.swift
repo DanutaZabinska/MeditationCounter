@@ -15,6 +15,7 @@ struct ShortRefuge: View {
 
             VStack {
                 Text("Short Refuge")
+                    .accessibilityIdentifier("Short Refuge")
                 Image("refuge")
                     .resizable()
                     

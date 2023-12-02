@@ -16,6 +16,7 @@ struct Amitaba: View {
 
             VStack {
                 Text("Amitābha")
+                    .accessibilityIdentifier("Title Amithaba")
                 Image("amitaba")
                     .resizable()
                 Text("Total number of repetitions of the Amitābha mantra: \(count) ")
@@ -42,6 +43,7 @@ struct Amitaba: View {
                 .cornerRadius(20)
                 .foregroundColor(Color.white)
                 .fontWeight(.semibold)
+                .accessibilityIdentifier("Add 27")
 
                 Button("Add 108 repetition") {
                     self.count += 108
@@ -53,6 +55,7 @@ struct Amitaba: View {
                 .cornerRadius(20)
                 .foregroundColor(Color.white)
                 .fontWeight(.semibold)
+                .accessibilityIdentifier("Add 108")
 
             }
         }
