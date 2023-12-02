@@ -43,6 +43,27 @@ final class MeditationCounterUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    func testEndtoEndAmithaba() throws {
+        // UI tests must launch the application that they test.
+        let app = XCUIApplication()
+        app.launch()
+
+        let pageObjects = PageObjects(app: app)
+        pageObjects.logoImage.tap()
+        pageObjects.amithabaButton.tap()
+
+        XCTAssert(pageObjects.titleAmithaba.exists) //Check if we are on the Amithaba page
+        pageObjects.add27.tap()
+
+        XCTAssert(pageObjects.countedAmithaba.exists)
+        XCTAssert((pageObjects.countedAmithaba.label).contains("27"))
+
+        pageObjects.add108.tap()
+        XCTAssert((pageObjects.countedAmithaba.label).contains("135"))
+
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.

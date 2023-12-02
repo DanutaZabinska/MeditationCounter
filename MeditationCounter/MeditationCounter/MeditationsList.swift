@@ -19,6 +19,7 @@ struct MeditationsList: View {
                         .accessibilityIdentifier("Amithaba")
                         .padding(16)
                         .font(.system(size: 20))
+                }
 
                     NavigationLink(destination: ShortRefuge()) {
                         Text("Short refuge")
@@ -26,7 +27,6 @@ struct MeditationsList: View {
                             .padding(16)
                             .font(.system(size: 20))
 
-                }
             }
         }
     }
