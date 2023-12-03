@@ -15,16 +15,20 @@ struct ContentView: View {
          VStack{
              HStack{
                  Text("Welcome to Meditation Counter")
+                     .foregroundColor(Color("Claret"))
              }
+             .background(Color("Cream"))
+
              NavigationLink(destination: MeditationsList()) {
                  Image("logo")
                  .resizable()
                  .frame(width: 300, height: 300 , alignment: .center)
                  .accessibilityIdentifier("Enter")
              }
+             .background(Color("Cream"))
          }
+         .background(Color("Cream"))
      }
-
  }
 }
 
