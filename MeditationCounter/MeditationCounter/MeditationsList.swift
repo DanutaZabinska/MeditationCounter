@@ -10,10 +10,12 @@ import SwiftUI
 struct MeditationsList: View {
 
     var body: some View {
+        ZStack {
+            Color("Cream").edgesIgnoringSafeArea(.all)
+            VStack{
             Text("Choose your meditation")
                 .foregroundColor(Color("Claret"))
                 .background(Color("Cream"))
-            VStack{
 
                 NavigationLink(destination: Amitaba()) {
                     Text("Amithaba")
@@ -21,7 +23,6 @@ struct MeditationsList: View {
                         .padding(16)
                         .font(.system(size: 20))
                         .foregroundColor(Color("Red"))
-                        .background(Color("Cream"))
                 }
 
                 NavigationLink(destination: ShortRefuge()) {
@@ -30,12 +31,10 @@ struct MeditationsList: View {
                         .padding(16)
                         .font(.system(size: 20))
                         .foregroundColor(Color("Red"))
-                        .background(Color("Cream"))
 
                 }
-                .background(Color("Cream"))
             }
-            .background(Color("Cream"))
+        }
     }
 }
 

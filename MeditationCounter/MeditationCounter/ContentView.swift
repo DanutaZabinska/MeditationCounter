@@ -12,22 +12,23 @@ struct ContentView: View {
  var body: some View {
 
      NavigationView{
-         VStack{
-             HStack{
-                 Text("Welcome to Meditation Counter")
-                     .foregroundColor(Color("Claret"))
-             }
-             .background(Color("Cream"))
+         ZStack {
+             Color("Cream").edgesIgnoringSafeArea(.all)
 
-             NavigationLink(destination: MeditationsList()) {
-                 Image("logo")
-                 .resizable()
-                 .frame(width: 300, height: 300 , alignment: .center)
-                 .accessibilityIdentifier("Enter")
+             VStack{
+                 HStack{
+                     Text("Welcome to Meditation Counter")
+                         .foregroundColor(Color("Claret"))
+                 }
+
+                 NavigationLink(destination: MeditationsList()) {
+                     Image("logo")
+                         .resizable()
+                         .frame(width: 300, height: 300 , alignment: .center)
+                         .accessibilityIdentifier("Enter")
+                 }
              }
-             .background(Color("Cream"))
          }
-         .background(Color("Cream"))
      }
  }
 }
